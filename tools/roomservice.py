@@ -46,8 +46,8 @@ default_manifest = ".repo/manifest.xml"
 custom_local_manifest = ".repo/local_manifests/komodo_manifest.xml"
 custom_default_revision = "pie"
 custom_dependencies = "komodo.dependencies"
-org_manifest = "KomodOSRoms-Devices"  # leave empty if org is provided in manifest
-org_display = "KomodOSRoms-Devices"  # needed for displaying
+org_manifest = "KomodOSRom-Devices"  # leave empty if org is provided in manifest
+org_display = "KomodOSRom-Devices"  # needed for displaying
 
 github_auth = None
 
