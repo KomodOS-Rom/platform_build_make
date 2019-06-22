@@ -830,7 +830,12 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   device = target_info.GetBuildProp("ro.product.device")
 
   script.Print("=================================================");
-  script.Print("                    KomodOSROMs");
+  script.Print("");
+  script.Print(" _  __                         _          ___  ____  ");
+  script.Print("| |/ /___  _ __ ___   ___   __| | ___    / _ \/ ___| ");
+  script.Print("| ' // _ \| '_ ` _ \ / _ \ / _` |/ _ \  | | | \___ \ ");
+  script.Print("| . \ (_) | | | | | | (_) | (_| | (_) | | |_| |___) |");
+  script.Print("|_|\_\___/|_| |_| |_|\___/ \__,_|\___/   \___/|____/ ");
   script.Print("");
   script.Print("=================================================");
   script.Print(" Android version: %s"%(android_version));
