@@ -831,12 +831,17 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
 
   script.Print("=================================================");
   script.Print("");
-  script.Print(" _  __                         _          ___  ____  ");
-  script.Print("| |/ /___  _ __ ___   ___   __| | ___    / _ \/ ___| ");
-  script.Print("| ' // _ \| '_ ` _ \ / _ \ / _` |/ _ \  | | | \___ \ ");
-  script.Print("| . \ (_) | | | | | | (_) | (_| | (_) | | |_| |___) |");
-  script.Print("|_|\_\___/|_| |_| |_|\___/ \__,_|\___/   \___/|____/ ");
+  script.Print(" _  __                         _       ");
+  script.Print("| |/ /___  _ __ ___   ___   __| | ___  ");
+  script.Print("| ' // _ \| '_ ` _ \ / _ \ / _` |/ _ \ ");
+  script.Print("| . \ (_) | | | | | | (_) | (_| | (_) |");
+  script.Print("|_|\_\___/|_| |_| |_|\___/ \__,_|\___/ ");
   script.Print("");
+  script.Print("              ___  ____  ");
+  script.Print("             / _ \/ ___| ");
+  script.Print("            | | | \___ \ ");
+  script.Print("            | |_| |___) |");
+  script.Print("             \___/|____/ ");
   script.Print("=================================================");
   script.Print(" Android version: %s"%(android_version));
   script.Print(" Build id: %s"%(build_id));
